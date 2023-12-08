@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+html{
+    background: blanchedalmond;
+    background-size: cover;
+    color: black;
+    font-family: 'Akronim', cursive;
+}
+
+.checkAnswer{
+    background-color:skyblue;
+    columns: #fff;
+    border:5px solid sandybrown;
+    border-radius: 8px;
+    width: 150px;
+    padding: 25px;
+    margin: 80px;
+    text-align: center;
+    color: tomato;
+    cursor: pointer;
+    user-select:none;
+    display: inline-block;
+}
+#TrivaTitle{
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#ShowScore{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#QuestionDisplay{
+    text-align: center;
+    color:gray;
+    font-family: monospace;
+    font-size: 25px;
+
+}
+.checkAnswer:hover{
+    background-color:steelblue;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background-size: cover */
